@@ -56,6 +56,8 @@ You need to change the IP to your personal IP address ending in /32 in the secur
 
 You need to create your own keypair. You can find info on this here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#how-to-generate-your-own-key-and-import-it-to-aws
 
+Your terraform code using a honeypotinstall.sh bash script to configure your ec2. More info on file provisioners can be found here: https://www.terraform.io/docs/language/resources/provisioners/file.html
+
    [ec2.tf]: <https://registry.terraform.io/providers/hashicorp/aws/3.58.0/docs/resources/instance>
    [egress_gw.tf]: <https://registry.terraform.io/providers/hashicorp/aws/3.58.0/docs/resources/egress_only_internet_gateway>
    [inet_gateway.tf]: <https://registry.terraform.io/providers/hashicorp/aws/3.58.0/docs/resources/internet_gateway>
